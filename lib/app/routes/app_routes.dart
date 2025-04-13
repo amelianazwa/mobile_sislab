@@ -6,9 +6,11 @@ abstract class Routes {
   static const HOME = _Paths.HOME;
   static const LOGIN = _Paths.LOGIN;
   static const REGISTER = _Paths.REGISTER;
-  static const DASHBOARD = _Paths.DASHBOARD;
+  static const DASHBOARD = _Paths.DASHBOARD;  
   static const ANGGOTA = _Paths.ANGGOTA;
+   static const BARANG = _Paths.BARANG;
   static const PROFILE = _Paths.PROFILE;
+
   
 }
 
@@ -19,5 +21,6 @@ abstract class _Paths {
   static const REGISTER = '/register';
   static const DASHBOARD = '/dashboard';
   static const ANGGOTA = '/anggota';
+  static const BARANG = '/barang';
    static const PROFILE = '/profile';
-}
+}   

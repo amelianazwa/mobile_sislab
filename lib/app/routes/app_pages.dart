@@ -2,6 +2,8 @@ import 'package:get/get.dart';
 
 import '../modules/anggota/bindings/anggota_binding.dart';
 import '../modules/anggota/views/anggota_view.dart';
+import '../modules/barang/bindings/barang_binding.dart';
+import '../modules/barang/views/barang_view.dart';
 import '../modules/profile/bindings/profile_binding.dart';
 import '../modules/profile/views/profile_view.dart';
 import '../modules/dashboard/bindings/dashboard_binding.dart';
@@ -51,6 +53,11 @@ class AppPages {
       page: () => ProfileView(),
       binding: ProfileBinding(),
     ),
+    GetPage(
+      name: _Paths.BARANG,
+      page: () => BarangView(),
+      binding: BarangBinding(),
+    ), 
     
   ];
 }

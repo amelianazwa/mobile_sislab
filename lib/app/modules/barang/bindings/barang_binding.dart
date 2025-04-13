@@ -1,12 +1,12 @@
-// import 'package:get/get.dart';
+import 'package:get/get.dart';
 
-// import '../controllers/barang_controller.dart';
+import '../controllers/barang_controller.dart';
 
-// class BarangBinding extends Bindings {
-//   @override
-//   void dependencies() {
-//     Get.lazyPut<BarangController>(
-//       () =>BarangController(),
-//     );
-//   }
-// }
+class BarangBinding extends Bindings {
+  @override
+  void dependencies() {
+    Get.lazyPut<BarangController>(
+      () =>BarangController(),
+    );
+  }
+}

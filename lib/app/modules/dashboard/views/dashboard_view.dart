@@ -96,8 +96,8 @@ class DashboardView extends StatelessWidget {
                   _buildStatCard('Anggota', '3', Colors.blue.shade300, () {
                     Get.toNamed(Routes.ANGGOTA);
                   }),
-                  _buildStatCard('Barang', '200', Colors.green.shade300, () {
-                    print('Tombol Barang ditekan');
+                  _buildStatCard('Barang', '4', Colors.green.shade300, () {
+                    Get.toNamed(Routes.BARANG);
                   }),
                   _buildStatCard('Peminjaman', '30', Colors.orange.shade300, () {
                     print('Tombol Peminjaman ditekan');
