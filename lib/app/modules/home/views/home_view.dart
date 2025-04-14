@@ -19,8 +19,8 @@ Widget build(BuildContext context) {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Lottie.network(
-              'https://gist.githubusercontent.com/olipiskandar/2095343e6b34255dcfb042166c4a3283/raw/d76e1121a2124640481edcf6e7712130304d6236/praujikom_kucing.json',
+            Lottie.asset(
+              'assets/lottie/note.json',
               fit: BoxFit.cover,
             ),
             const SizedBox(

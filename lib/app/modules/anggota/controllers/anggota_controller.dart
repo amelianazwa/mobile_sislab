@@ -16,7 +16,7 @@ class AnggotaController extends GetxController {
   }
 
   void fetchAnggota() async {
-  String token = "Bearer bVyqKgrAh5PI0E2tjjd0KaHkzNbSKKK0vJyERuq199557b2f"; // Gantilah dengan token yang benar
+  String token = "Bearer sxiyZAalOAaU1RUYNmD3prEkymplPzS59WVsxjNed884cce5"; // Gantilah dengan token yang benar
   try {
     isLoading(true);
     var response = await http.get(

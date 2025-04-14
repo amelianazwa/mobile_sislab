@@ -19,8 +19,8 @@ class LoginView extends GetView<LoginController> {
           children: [
             Padding(
               padding: const EdgeInsets.only(top: 70.0),
-              child: Lottie.network(
-                'https://gist.githubusercontent.com/olipiskandar/2095343e6b34255dcfb042166c4a3283/raw/d76e1121a2124640481edcf6e7712130304d6236/praujikom_kucing.json',
+              child: Lottie.asset(
+                'assets/lottie/note.json',
                 fit: BoxFit.cover,
               ),
             ),
