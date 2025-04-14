@@ -4,6 +4,8 @@ import '../modules/anggota/bindings/anggota_binding.dart';
 import '../modules/anggota/views/anggota_view.dart';
 import '../modules/barang/bindings/barang_binding.dart';
 import '../modules/barang/views/barang_view.dart';
+import '../modules/peminjaman/bindings/peminjaman_binding.dart';
+import '../modules/peminjaman/views/peminjaman_view.dart';
 import '../modules/profile/bindings/profile_binding.dart';
 import '../modules/profile/views/profile_view.dart';
 import '../modules/dashboard/bindings/dashboard_binding.dart';
@@ -57,6 +59,11 @@ class AppPages {
       name: _Paths.BARANG,
       page: () => BarangView(),
       binding: BarangBinding(),
+    ), 
+    GetPage(
+      name: _Paths.PEMINJAMAN,
+      page: () => PeminjamanView(),
+      binding: PeminjamanBinding(),
     ), 
     
   ];

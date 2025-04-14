@@ -10,7 +10,7 @@ class ProfileController extends GetxController {
   var user = Rxn<User>();
 
   final String token =
-      "Bearer sxiyZAalOAaU1RUYNmD3prEkymplPzS59WVsxjNed884cce5"; // Ganti token dengan token yang benar
+      "Bearer LIxM9z8ikmoPLq7EdzeiTzgHcbYmgG2XW89w42E83d0067e3"; // Ganti token dengan token yang benar
 
   Future<void> fetchProfile() async {
     isLoading.value = true;

@@ -3,6 +3,7 @@ class BaseUrl {
   static String register = 'http://127.0.0.1:8000/api/register';
   static String anggota = 'http://127.0.0.1:8000/api/anggota';
   static String barang = 'http://127.0.0.1:8000/api/barang';
+   static String peminjaman = 'http://127.0.0.1:8000/api/peminjaman';
   static String profile = 'http://127.0.0.1:8000/api/profile';
   static String logout = 'http://127.0.0.1:8000/api/logout';
 }
